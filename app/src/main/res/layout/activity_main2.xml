@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context="com.gladismawasti.alfabetceria.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/linearLayout">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_margin="3dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hurufa" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_margin="3dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hurufb" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_margin="3dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hurufc" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_margin="3dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hurufd" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/linearLayout2"
+        android:gravity="center_horizontal"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufe"
+            />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/huruff" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufg" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufh" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout2"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufi"
+            />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufj" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufk" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufl" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufm"
+            />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufn" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufo" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufq"
+            />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufr" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufs" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/huruft" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufu"
+            />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufv" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufw" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_margin="3dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurufx" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_margin="3dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hurufy"
+        />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_margin="3dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hurufz" />
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:background="@drawable/prev"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="37dp" />
+</RelativeLayout>
